@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>글로벌 금융 서비스</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #001f3f;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #ffd700 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .highlight, header .current a {
+            color: #ffd700;
+            font-weight: bold;
+        }
+        #showcase {
+            min-height: 400px;
+            background: linear-gradient(rgba(0, 31, 63, 0.8), rgba(0, 31, 63, 0.8)), url('https://source.unsplash.com/1600x900/?finance,bank') no-repeat center center/cover;
+            text-align: center;
+            color: #ffffff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        #boxes {
+            margin-top: 20px;
+        }
+        #boxes .box {
+            float: left;
+            text-align: center;
+            width: 30%;
+            padding: 10px;
+            background: #ffffff;
+            margin: 1.66%;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        #boxes .box img {
+            width: 90px;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #ffffff;
+            background-color: #001f3f;
+            text-align: center;
+        }
+        .btn {
+            display: inline-block;
+            background: #ffd700;
+            color: #001f3f;
+            padding: 10px 20px;
+            margin-top: 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background: #ffed4a;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">글로벌</span> 금융 서비스</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">홈</a></li>
+                    <li><a href="#">서비스</a></li>
+                    <li><a href="#">투자</a></li>
+                    <li><a href="#">고객지원</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>글로벌 금융의 미래를 선도합니다</h1>
+            <p>혁신적인 금융 솔루션으로 귀하의 재정적 성공을 지원합니다.</p>
+            <a href="#" class="btn">자세히 알아보기</a>
+        </div>
+    </section>
+
+    <section id="boxes">
+        <div class="container">
+            <div class="box">
+                <img src="https://source.unsplash.com/random/90x90?money" alt="투자">
+                <h3>투자 서비스</h3>
+                <p>다양한 투자 상품과 전문가의 조언으로 귀하의 자산을 성장시킵니다.</p>
+            </div>
+            <div class="box">
+                <img src="https://source.unsplash.com/random/90x90?bank" alt="은행">
+                <h3>은행 서비스</h3>
+                <p>안전하고 편리한 은행 서비스로 일상적인 금융 활동을 지원합니다.</p>
+            </div>
+            <div class="box">
+                <img src="https://source.unsplash.com/random/90x90?consulting" alt="컨설팅">
+                <h3>금융 컨설팅</h3>
+                <p>개인 맞춤형 금융 컨설팅으로 귀하의 재무 목표 달성을 돕습니다.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>글로벌 금융 서비스 &copy; 2023</p>
+    </footer>
+</body>
+</html>
